@@ -1,0 +1,56 @@
+#wrap{
+	margin-top: 10px
+}
+
+#tabRecepcaoContent .boxRecepcao{
+	cursor: pointer;
+}
+
+#tabRecepcaoContent .card .card-body .left{
+	float: left;
+    width: 85%;
+    font-size: small;
+}
+
+#tabRecepcaoContent .card .card-body .right {
+	float: left;
+    width: 15%;
+    font-size: 55px;
+    color: #ddd;
+    line-height: 50px;
+    text-align: right;
+}
+
+#tabRecepcaoContent .card .card-body .semNotas{
+	float: left;
+    font-size: small;
+}
+
+.bs-quartos{
+	display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.bs-quartos-list{
+	padding-left: 15px;
+	list-style: none;
+}
+
+.bs-quartos-list li{
+	width: 12.5%;
+	float: left;
+	padding: 10px;
+	line-height: 1.4;
+	text-align: center;
+    border: 1px solid #fff;
+    font-size: small;
+}
+
+.bg-quarto-livre{
+	background-color: #90EE90;
+	color: black;
+}
+.bg-quarto-ocupado{
+	background-color: #F08080
+}

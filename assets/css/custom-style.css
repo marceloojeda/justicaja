@@ -1,0 +1,41 @@
+.borderless td, .borderless th {
+    border: none;
+}
+.border-bottom-1{
+	border-bottom-style: dashed;
+    border-bottom-width: thin;
+}
+
+.list-item-icon{
+	margin-right: 20px;
+}
+
+.mb-2{
+	margin-bottom: 20px;
+}
+
+.mt-2{
+	margin-top: 20px !important;
+}
+
+fieldset{
+	margin-bottom: 30px !important;
+}
+
+.card-header-collapse{
+	padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f7f7f9;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.bg-white{
+	padding: 10px;
+	background-color: #fff !important;
+}
+
+.select-readonly{
+	background: #eee; /*Simular campo inativo - Sugestão @GabrielRodrigues*/
+	pointer-events: none;
+	touch-action: none;
+}
